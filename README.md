@@ -2,18 +2,43 @@ Chat-app
 =============================
 
 
-- [Docker](#Docker)
-- [DataBase](#DataBase)
-- [API-info](#API\-info)
-- [App-dev start](#App\-dev-start)
-- [App-prom start](#App\-prom-start)
-
-* [On the first you need docker](#Docker)
-* [Also you need a DataBase](#DataBase)
-* [API-info here](#API-info)
-* [Then follow the steps:](#App start)
+- [Docker](##Docker)
+- [DataBase](##DataBase)
+- [API-info](##API\-info)
+- [App-dev start](##App\-dev-start)
+- [App-prom start](##App\-prom-start)
 
 ---
+
+## Docker
+
+On the first you need [docker](https://www.docker.com).
+
+My app uses docker for starting [Nginx-server](https://hub.docker.com/_/nginx).
+This is needed to connect the [Frontend](./front) and the [Backend](./back) on the develop version app.
+Also It's needed for delivery [Frontend](./front) to the Browser-client for the production version, and respectively for forwarding requests on the [Backend](./back).
+
+Therefore you need docker-client.
+
+---
+
+## DataBase
+
+Also you need a DataBase.
+
+---
+
+## API-info
+
+You can see server API on the http://localhost:2501/api-docs/
+
+>Created with <b><i>Swagger</i></b>
+
+
+---
+
+## App-dev start
+
 
 1. Exec: ``cd dev``
 2. Click on the ``start_dev.command``
@@ -38,21 +63,6 @@ Chat-app
 
     >It starts frontend-server with live-reload on the http://localhost:3000
 
-
-## You can see server API on the http://localhost:2501/api-docs/
-
 ---
 
-Created with <b><i>Swagger</i></b>
-
----
-
-# Docker
-
-# DataBase
-
-# API-info
-
-# App-dev start
-
-# App-prom start
+## App-prom start
