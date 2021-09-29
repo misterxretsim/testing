@@ -3,8 +3,11 @@ Chat-app
 
 
 - [Docker](#Docker)
+- [Nginx](#Nginx)
 - [DataBase](#DataBase)
-- [API-info](#API\-info)
+- [API-info(Swagger)](#API\-info)
+- [Frontend](#Frontend)
+- [Backend](#Backend)
 - [App-dev start](#App\-dev-start)
 - [App-prom start](#App\-prom-start)
 
@@ -22,6 +25,19 @@ Therefore you need docker-client.
 
 ---
 
+## Nginx
+
+NginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginx
+NginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginx
+NginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginx
+NginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginx
+NginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginx
+NginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginx
+NginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginx
+NginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginxNginx
+
+---
+
 ## DataBase
 
 Also you need a DataBase.
@@ -34,6 +50,25 @@ You can see server API on the http://localhost:2501/api-docs/
 
 >Created with <b><i>Swagger</i></b>
 
+
+---
+
+## Frontend
+
+FrontendFrontendFrontendFrontendFrontendFrontend
+FrontendFrontendFrontendFrontendFrontendFrontend
+FrontendFrontendFrontendFrontendFrontendFrontend
+FrontendFrontendFrontendFrontendFrontendFrontend
+
+
+---
+
+## Backend
+
+BackendBackendBackendBackendBackendBackendBackend
+BackendBackendBackendBackendBackendBackendBackend
+BackendBackendBackendBackendBackendBackendBackend
+BackendBackendBackendBackendBackendBackendBackend
 
 ---
 
