@@ -1,11 +1,12 @@
-For start dev-version
+Chat-app
 =============================
 
 
 - [Docker](#Docker)
 - [DataBase](#DataBase)
 - [API-info](#API\-info)
-- [App start](#App-start)
+- [App-dev start](#App\-dev-start)
+- [App-prom start](#App\-prom-start)
 
 * [On the first you need docker](#Docker)
 * [Also you need a DataBase](#DataBase)
@@ -52,4 +53,6 @@ Created with <b><i>Swagger</i></b>
 
 # API-info
 
-# App start
+# App-dev start
+
+# App-prom start
