@@ -25,8 +25,37 @@ Also below I will tell you how you can run it and what you need for this.
 
 ## Features
 
-- [x] 123
-- [ ] 5432
+- [ ] Frontend
+   - [ ] Bot
+      - [ ] Working with telegram
+      - [x] Interface
+   - [x] React
+   - [x] React Router
+   - [x] Redux
+- [ ] Backend
+   - [ ] Email confirmation
+   - [ ] Sending messages on email
+   - [ ] Adding telegram-bot
+   - [x] Routing
+   - [x] JWT
+   - [x] Work with DB
+   - [x] Express
+- [ ] DevOps
+   - [ ] Docker
+      - [ ] Docker-compose
+      - [ ] Ising Backend with Docker
+      - [ ] Using DB with Docker
+      - [x] Using Nginx with Docker
+   - [ ] Prod version
+   - [x] Develop version
+   - [x] Autogenerate DB
+- [ ] Unit-tests
+- [x] Pretty README
+- [x] Swagger
+- [x] Database
+- [x] Nginx
+- [x] Docker
+- [x] Git
 
 ---
 
@@ -67,7 +96,7 @@ Perhaps in the future I will use more than 1 [Backend-server](./back), therefore
 > :warning: **In development**
 >
 > The product version of the application also uses **Nginx**. It issues the [Frontend](./front) when requested from the browser, and also connects [Frontend](./front) to the [Backend](./back).
-> 
+>
 > [Prod-configuration](./dev/nginx_prod.conf) includes:
 > * starting the [Nginx-server](https://hub.docker.com/_/nginx) on :8085 port;
 > * issuing build frontend-files for rendering them in the browser;
@@ -138,10 +167,10 @@ BackendBackendBackendBackendBackendBackendBackend
 Here you can see how to enable the **dev-version** of the **Chat-app**.
 1. Exec: ``cd dev``
 2. Click on the ``start_dev.command``
-   
+
    > It changes ``ip`` in ``nginx_dev.conf`` on your actual ``ip`` and starts **Nginx** in **Docker-container** with ``nginx_dev.conf``  
-   > ***Nginx*** starts on the http://localhost:8085  
-   > 
+   > ***Nginx*** starts on the http://localhost:8085
+   >
    > ``start_dev.command`` [see here](./dev/start_dev.command).  
    > ``nginx_dev.conf`` [see here](./dev/nginx_dev.conf).
 3. Exec: ``cd ..``
@@ -149,14 +178,14 @@ Here you can see how to enable the **dev-version** of the **Chat-app**.
    4.1. Exec: ``cd back``   
    4.2. Exec: ``npm i``   
    4.3. Exec: ``npm start``
-   
+
    > It starts back-server with configuration on the ``.env`` and ``nodemon`` on the http://localhost:2501
 5. Exec: ``cd ..``
 6. Now you can start frontend:  
    6.1. Exec: ``cd front``   
    6.2. Exec: ``npm i``   
    6.3. Exec: ``npm start``
-   
+
    > It starts frontend-server with live-reload on the http://localhost:3000
 ---
 
