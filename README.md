@@ -11,6 +11,7 @@ Also below I will tell you how you can run it and what you need for this.
 
 ## Table of Contents
 
+- [Features](#Features)
 - [Docker](#Docker)
 - [Nginx](#Nginx)
 - [DataBase](#DataBase)
@@ -19,6 +20,13 @@ Also below I will tell you how you can run it and what you need for this.
 - [Backend](#Backend)
 - [App-dev start](#App\-dev-start)
 - [App-prod start](#App\-prod-start)
+
+---
+
+## Features
+
+- [x] 123
+- [ ] 5432
 
 ---
 
