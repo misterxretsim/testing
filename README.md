@@ -12,6 +12,7 @@ Also below I will tell you how you can run it and what you need for this.
 ## Table of Contents
 
 - [Features](#Features)
+- [Skills](#Skills)
 - [Docker](#Docker)
 - [Nginx](#Nginx)
 - [DataBase](#DataBase)
@@ -24,6 +25,12 @@ Also below I will tell you how you can run it and what you need for this.
 ---
 
 ## Features
+
+> :warning: **This block in development**
+
+---
+
+## Skills
 
 - [ ] Frontend
    - [ ] Bot
