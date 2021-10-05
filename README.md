@@ -2,7 +2,7 @@
 
 With the **Chat-app**, you can use your email as a modern messenger to communicate with your friends or colleagues.
 
-<u>The app has been developed to showcase relevant skills.</u>
+*The app has been developed to showcase relevant skills.*
 
 Therefore, below I describe the technologies or just interesting nuances that I used in the development, as well as for what.  
 Also below I will tell you how you can run it and what you need for this.
@@ -39,7 +39,7 @@ Therefore you need docker-client.
 
 In the application, I am using an [Nginx-server](https://hub.docker.com/_/nginx).  
 This is necessary so that the [Frontend](./front) and [Backend](./back) can be combined in the development version.  
-Perhaps in the future I will use more than 1 [Backend-server](./back), therefore, <u>Nginx</u> will help a lot in implementing this.
+Perhaps in the future I will use more than 1 [Backend-server](./back), therefore, **Nginx** will help a lot in implementing this.
 
 [Dev-configuration](./dev/nginx_dev.conf) includes:
 
@@ -50,7 +50,7 @@ Perhaps in the future I will use more than 1 [Backend-server](./back), therefore
 
 > :warning: **In development**
 >
-> The product version of the application also uses <u>Nginx</u>. It issues the [Frontend](./front) when requested from the browser, and also connects [Frontend](./front) to the [Backend](./back).
+> The product version of the application also uses **Nginx**. It issues the [Frontend](./front) when requested from the browser, and also connects [Frontend](./front) to the [Backend](./back).
 > 
 > [Prod-configuration](./dev/nginx_prod.conf) includes:
 > * starting the [Nginx-server](https://hub.docker.com/_/nginx) on :8085 port;
@@ -75,7 +75,7 @@ Then **script** moves it to [folder with Database-data](./back/db) for [Backend]
 
 You can see server API on the http://localhost:2501/api-docs/
 
-> Created with **<i>Swagger</i>**
+> Created with ***Swagger***
 
 ---
 
@@ -104,7 +104,7 @@ Here you can see how to enable the **dev-version** of the **Chat-app**.
 2. Click on the ``start_dev.command``
    
    > It changes ``ip`` in ``nginx_dev.conf`` on your actual ``ip`` and starts **Nginx** in **Docker-container** with ``nginx_dev.conf``  
-   > **<i>Nginx</i>** starts on the http://localhost:8085  
+   > ***Nginx*** starts on the http://localhost:8085  
    > 
    > ``start_dev.command`` [see here](./dev/start_dev.command).  
    > ``nginx_dev.conf`` [see here](./dev/nginx_dev.conf).
