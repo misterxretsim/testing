@@ -24,7 +24,7 @@ Also below I will tell you how you can run it and what you need for this.
 
 ## Docker
 
-![plot](./docker.png)
+![plot](./dockerrr.png)
 
 On the first you need [Docker](https://www.docker.com).  
 **Chat-app** uses **Docker** for starting [Nginx-server](https://hub.docker.com/_/nginx).  
@@ -38,6 +38,8 @@ Therefore you need docker-client.
 ---
 
 ## Nginx
+
+![plot](./nginx.png)
 
 In the application, I am using an [Nginx-server](https://hub.docker.com/_/nginx).  
 This is necessary so that the [Frontend](./front) and [Backend](./back) can be combined in the development version.  
@@ -63,6 +65,8 @@ Perhaps in the future I will use more than 1 [Backend-server](./back), therefore
 
 ## DataBase
 
+![plot](./SQLite.png)
+
 The **Chat-app** uses [SQLite](https://www.sqlite.org) as a **Database**.  
 In the future, I plan to move to a more efficient **Database** like [PostgreSQL](https://hub.docker.com/_/postgres), but now everything suits me.  
 In the [current configuration](./dev/db_conf/tables.conf), I have 3 tables - **Chats**, **Msgs** and **Profile** - linked together by an **one-to-many** relationships.
@@ -75,6 +79,8 @@ Then **script** moves it to [folder with Database-data](./back/db) for [Backend]
 
 ## API-info
 
+![plot](./swagger.svg)
+
 You can see server API on the http://localhost:2501/api-docs/
 
 > Created with ***Swagger***
@@ -82,6 +88,8 @@ You can see server API on the http://localhost:2501/api-docs/
 ---
 
 ## Frontend
+
+![plot](./react.png)
 
 FrontendFrontendFrontendFrontendFrontendFrontend
 FrontendFrontendFrontendFrontendFrontendFrontend
@@ -92,12 +100,16 @@ FrontendFrontendFrontendFrontendFrontendFrontend
 
 ## Backend
 
+![plot](./express.png)
+
 BackendBackendBackendBackendBackendBackendBackend
 BackendBackendBackendBackendBackendBackendBackend
 BackendBackendBackendBackendBackendBackendBackend
 BackendBackendBackendBackendBackendBackendBackend
 
 ---
+
+![plot](./DevOps.png)
 
 ## App-dev start
 
