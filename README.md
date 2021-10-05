@@ -24,6 +24,8 @@ Also below I will tell you how you can run it and what you need for this.
 
 ## Docker
 
+![plot](./docker.png)
+
 On the first you need [Docker](https://www.docker.com).  
 **Chat-app** uses **Docker** for starting [Nginx-server](https://hub.docker.com/_/nginx).  
 This is needed to connect the [Frontend](./front) and the [Backend](./back) on the develop version app.  
