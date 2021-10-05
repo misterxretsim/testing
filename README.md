@@ -108,8 +108,9 @@ BackendBackendBackendBackendBackendBackendBackend
 BackendBackendBackendBackendBackendBackendBackend
 
 ---
-
-![plot](./DevOps.png)
+<p align="center">
+   ![plot](./DevOps.png)
+</p>
 
 ## App-dev start
 
