@@ -136,7 +136,7 @@ Then **script** moves it to [folder with Database-data](./back/db) for [Backend]
 
 You can see server API on the http://localhost:2501/api-docs/
 
-> Created with ***Swagger***
+> :warning: **This block in development**
 
 ---
 
@@ -146,10 +146,7 @@ You can see server API on the http://localhost:2501/api-docs/
    <img src="./react.png" width="300"/>
 </p>
 
-FrontendFrontendFrontendFrontendFrontendFrontend
-FrontendFrontendFrontendFrontendFrontendFrontend
-FrontendFrontendFrontendFrontendFrontendFrontend
-FrontendFrontendFrontendFrontendFrontendFrontend
+> :warning: **This block in development**
 
 ---
 
@@ -159,10 +156,7 @@ FrontendFrontendFrontendFrontendFrontendFrontend
    <img src="./expressss.png" />
 </p>
 
-BackendBackendBackendBackendBackendBackendBackend
-BackendBackendBackendBackendBackendBackendBackend
-BackendBackendBackendBackendBackendBackendBackend
-BackendBackendBackendBackendBackendBackendBackend
+> :warning: **This block in development**
 
 ---
 
@@ -200,4 +194,4 @@ Here you can see how to enable the **dev-version** of the **Chat-app**.
 
 ## App-prod start
 
-> :warning: **In development**
+> :warning: **This block in development**
