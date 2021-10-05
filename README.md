@@ -24,7 +24,9 @@ Also below I will tell you how you can run it and what you need for this.
 
 ## Docker
 
-![plot](./dockerrr.png)
+<p align="center">
+   <img src="./dockerrr.png" />
+</p>
 
 On the first you need [Docker](https://www.docker.com).  
 **Chat-app** uses **Docker** for starting [Nginx-server](https://hub.docker.com/_/nginx).  
@@ -39,7 +41,9 @@ Therefore you need docker-client.
 
 ## Nginx
 
-![plot](./nginx.png)
+<p align="center">
+   <img src="./nginx.png" />
+</p>
 
 In the application, I am using an [Nginx-server](https://hub.docker.com/_/nginx).  
 This is necessary so that the [Frontend](./front) and [Backend](./back) can be combined in the development version.  
@@ -65,7 +69,9 @@ Perhaps in the future I will use more than 1 [Backend-server](./back), therefore
 
 ## DataBase
 
-![plot](./SQLite.png)
+<p align="center">
+   <img src="./SQLite.png" />
+</p>
 
 The **Chat-app** uses [SQLite](https://www.sqlite.org) as a **Database**.  
 In the future, I plan to move to a more efficient **Database** like [PostgreSQL](https://hub.docker.com/_/postgres), but now everything suits me.  
@@ -79,7 +85,9 @@ Then **script** moves it to [folder with Database-data](./back/db) for [Backend]
 
 ## API-info
 
-![plot](./swagger.svg)
+<p align="center">
+   <img src="./swagger.svg" />
+</p>
 
 You can see server API on the http://localhost:2501/api-docs/
 
@@ -89,7 +97,9 @@ You can see server API on the http://localhost:2501/api-docs/
 
 ## Frontend
 
-![plot](./react.png)
+<p align="center">
+   <img src="./react.png" />
+</p>
 
 FrontendFrontendFrontendFrontendFrontendFrontend
 FrontendFrontendFrontendFrontendFrontendFrontend
@@ -100,7 +110,9 @@ FrontendFrontendFrontendFrontendFrontendFrontend
 
 ## Backend
 
-![plot](./expressss.png)
+<p align="center">
+   <img src="./expressss.png" />
+</p>
 
 BackendBackendBackendBackendBackendBackendBackend
 BackendBackendBackendBackendBackendBackendBackend
@@ -108,8 +120,9 @@ BackendBackendBackendBackendBackendBackendBackend
 BackendBackendBackendBackendBackendBackendBackend
 
 ---
+
 <p align="center">
-   ![plot](./DevOps.png)
+   <img src="./DevOps.png" />
 </p>
 
 ## App-dev start
