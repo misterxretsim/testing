@@ -43,6 +43,7 @@ Also below I will tell you how you can run it and what you need for this.
    - [ ] Email confirmation
    - [ ] Sending messages on email
    - [ ] Adding telegram-bot
+   - [ ] SSE / Web Sockets
    - [x] Routing
    - [x] JWT
    - [x] Work with DB
