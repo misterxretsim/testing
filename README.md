@@ -1,9 +1,10 @@
 # CHAT-APP
 
-With the **Chat-app**, you can use your mail as a modern messenger to communicate with your friends or colleagues.
+With the **Chat-app**, you can use your email as a modern messenger to communicate with your friends or colleagues.
 
-The app has been developed to showcase relevant skills.  
-Therefore, below I describe the technologies or just interesting nuances that I used in the development, as well as for what.
+<u>The app has been developed to showcase relevant skills.</u>
+
+Therefore, below I describe the technologies or just interesting nuances that I used in the development, as well as for what.  
 Also below I will tell you how you can run it and what you need for this.
 
 ---
@@ -28,8 +29,7 @@ On the first you need [Docker](https://www.docker.com).
 This is needed to connect the [Frontend](./front) and the [Backend](./back) on the develop version app.  
 Also It's needed for delivery [Frontend](./front) to the Browser-client for the production version, and respectively for forwarding requests on the [Backend](./back).
 
-In the future, I plan to switch to **Docker-compose**, because this will greatly simplify the interaction of the [Frontend](./front) with [Backend-servers](./back)(if there are more than 1) and [Backend-server](./back) with a Database (like [PostgreSQL](https://hub.docker.com/_/postgres)).  
-But more on that later ([see here](#DataBase)).
+In the future, I plan to switch to **Docker-compose**, because this will greatly simplify the interaction of the [Frontend](./front) with [Backend-servers](./back)(if there are more than 1) and [Backend-server](./back) with a Database (like [PostgreSQL](https://hub.docker.com/_/postgres)).
 
 Therefore you need docker-client.
 
@@ -61,7 +61,13 @@ Perhaps in the future I will use more than 1 [Backend-server](./back), therefore
 
 ## DataBase
 
-Also you need a DataBase.
+The **Chat-app** uses [SQLite](https://www.sqlite.org) as a **Database**.  
+In the future, I plan to move to a more efficient **Database** like [PostgreSQL](https://hub.docker.com/_/postgres), but now everything suits me.  
+In the [current configuration](./dev/db_conf/tables.conf), I have 3 tables - **Chats**, **Msgs** and **Profile** - linked together by an **one-to-many** relationships.
+
+Also implemented the ``createDB.command`` ([see here](./dev/createDB.command)) **script** to create a **Database** with the required tables.  
+**Script** starts [mini-app](./dev/db_conf) which creates clean **Database**.  
+Then **script** moves it to [folder with Database-data](./back/db) for [Backend](./back).
 
 ---
 
@@ -93,7 +99,7 @@ BackendBackendBackendBackendBackendBackendBackend
 
 ## App-dev start
 
-Here you can see how to enable the dev-version of the application.
+Here you can see how to enable the **dev-version** of the **Chat-app**.
 1. Exec: ``cd dev``
 2. Click on the ``start_dev.command``
    
