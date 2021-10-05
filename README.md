@@ -25,7 +25,7 @@ Also below I will tell you how you can run it and what you need for this.
 ## Docker
 
 <p align="center">
-   <img src="./dockerrr.png" />
+   <img src="./dockerrr.png" width="500"/>
 </p>
 
 On the first you need [Docker](https://www.docker.com).  
@@ -41,8 +41,9 @@ Therefore you need docker-client.
 
 ## Nginx
 
-<p align="center">
-   <img src="./nginx.png" />
+<p align="center">![image](https://user-images.githubusercontent.com/25767145/136075189-99fd4514-b593-4a3a-85c6-86b82f73485d.png)
+
+   <img src="./nginx.png" width="300"/>
 </p>
 
 In the application, I am using an [Nginx-server](https://hub.docker.com/_/nginx).  
@@ -70,7 +71,7 @@ Perhaps in the future I will use more than 1 [Backend-server](./back), therefore
 ## DataBase
 
 <p align="center">
-   <img src="./SQLite.png" />
+   <img src="./SQLite.png" width="300"/>
 </p>
 
 The **Chat-app** uses [SQLite](https://www.sqlite.org) as a **Database**.  
@@ -86,7 +87,7 @@ Then **script** moves it to [folder with Database-data](./back/db) for [Backend]
 ## API-info
 
 <p align="center">
-   <img src="./swagger.svg" />
+   <img src="./swagger.svg" width="450"/>
 </p>
 
 You can see server API on the http://localhost:2501/api-docs/
@@ -98,7 +99,7 @@ You can see server API on the http://localhost:2501/api-docs/
 ## Frontend
 
 <p align="center">
-   <img src="./react.png" />
+   <img src="./react.png" width="300"/>
 </p>
 
 FrontendFrontendFrontendFrontendFrontendFrontend
@@ -122,7 +123,7 @@ BackendBackendBackendBackendBackendBackendBackend
 ---
 
 <p align="center">
-   <img src="./DevOps.png" />
+   <img src="./DevOps.png" width="300"/>
 </p>
 
 ## App-dev start
