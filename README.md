@@ -41,8 +41,7 @@ Therefore you need docker-client.
 
 ## Nginx
 
-<p align="center">![image](https://user-images.githubusercontent.com/25767145/136075189-99fd4514-b593-4a3a-85c6-86b82f73485d.png)
-
+<p align="center">
    <img src="./nginx.png" width="300"/>
 </p>
 
